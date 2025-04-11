@@ -18,7 +18,6 @@ nav{
   display: flex;
   align-items: center;
   gap:20px;
-  
 }
 
 nav a{
@@ -26,24 +25,23 @@ nav a{
     background-color: white;
     border-radius: 7px;
     text-decoration: none;
+    padding: 10px;
 }
 
 
 main{
     background-color: #EBA01E;
-    height: 2267px;
+    height: 2000px;
 }
 
 footer{
    background-color: #EB6652;
-height: 200px;
-display: flex;
+    height: 200px;
+    display: flex;
 }
 
 
 .products{
-    width: 1000px;
-    height: 400px;
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -60,7 +58,7 @@ display: flex;
 
 
 .item a{
-    background-color: #2FA3B4;
+    background-color: #6E2116;
     text-decoration: none;
     padding: 10px 70px 10px 70px;
     margin: 15px;
@@ -93,23 +91,53 @@ footer p{
 
 h1{
     text-align: center;
-    color: white;
+    color: #EB1E3C;
+    padding-top: 20px;
+}
+
+h1::before{
+    content:url(image\ 7.png);
+}
+
+h1::after{
+    content:url(image\ 7.png);
 }
 
 
 aside img{
     width: 150px;
     height: 150px;
+    border-radius: 20px;
 
 } 
 
 aside{
-    width: 200px;
-    height: 200px;
-    background-color: #36BBCE;
+    width: 270px;
+    height: 250px;
+    background-color: #6E2116;
     position: fixed;
     top: 250px;
     left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
 }
 
+
+.item img{
+    width: 488px;
+    height: 437px;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
 
