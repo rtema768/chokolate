@@ -141,3 +141,7 @@ aside{
     height: 100px;
 }
 
+.adresa::before{
+  content:url(image\ 8.png) ;
+}
+
